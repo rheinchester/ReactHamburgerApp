@@ -1,0 +1,41 @@
+Always ensure to create a copy of a list to avoid mutatoin
+ Lists can be mutated using the splice method or the sprread operator
+ array.splice() copies an etire list
+ array = [...oldArray] copies the list too
+
+
+                 /* <Person 
+                change = {this.handleNameChange} 
+                click={this.handleSwitchUser.bind(this, 'maxi')}
+                name={this.state.persons[1].name}  age="43">
+                I love racing
+              </Person> 
+
+              passing clickmhandler as a prop
+              <Animal 
+                changeAnimal={this.handleAnimalChange}
+                type={this.state.animals.type}
+              /> */
+//  click={this.handleDeletePerson(index)}
+              
+              // The above code gave the below error
+              
+              //  Cannot update during an existing state
+              //  transition (such as within `render`).
+              //  Render methods should be a pure function 
+              //  of props and state.
+
+                            //  click={this.handleDeletePerson(index)}
+              
+              // The above code gave the below error
+              //  Cannot update during an existing state
+              //  transition (such as within `render`).
+              //  Render methods should be a pure function 
+              //  of props and state.
+
+
+{% comment %} 
+  First open source project, add an issue where you want command for show or hide activity bar
+
+  Second, add issue where you want the previous set of commands
+{% endcomment %}
